@@ -1,0 +1,674 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+body * {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/gotam/GothamPro-Bold.ttf");
+}
+.inner-block-1 {
+  background-image: url("../img/image 20.png");
+  width: 100%;
+  height: auto;
+  min-height: 843px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head-block {
+  width: 100%;
+  height: 81px;
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  background: #00000090;
+}
+
+.inner-head-content {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inner-head-content button:nth-child(2) {
+  width: 219px;
+  height: 48px;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #3FBB7B 0%, #31CB50 100%);
+  border-radius: 110px;
+  outline: none;
+  border: none;
+  border-color: #3FBB7B;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.inner-head-content a {
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.logo {
+  display: flex;
+  width: 147.06px;
+  height: 100%;
+}
+
+.inner-center-content {
+  width: 38%;
+  height: 100%;
+  min-width: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.installment-plan {
+  width: 95%;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.radius-content {
+  min-height: 108px;
+  min-width: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 4px solid #F8F9F7;
+  background: linear-gradient(90deg, #3FBB7B 0%, #31CB50 100%);
+}
+.radius-content a:nth-child(2) {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  /* or 231% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.radius-content a:nth-child(3) {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7px;
+  line-height: 11px;
+  /* or 164% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.radius-content a:nth-child(4) {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 26px;
+  /* or 164% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.radius-content a:nth-child(5) {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7px;
+  line-height: 11px;
+  /* or 164% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.line-radius {
+  position: absolute;
+  top: 0;
+  width: 0px;
+  height: 271px;
+  border: 1px solid #FFFFFF;
+}
+
+.black-radius {
+  width: 7px;
+  height: 7px;
+  background: #1D1D1B;
+  border-radius: 50%;
+}
+
+.inner-numb {
+  width: 15%;
+  height: 100%;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inner-numb a:nth-child(1) {
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: "Gotam Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 80.5%;
+  text-align: right;
+  color: #FFFFFF;
+}
+.inner-numb a:nth-child(2) {
+  align-items: center;
+  display: flex;
+  height: 13px;
+  width: 73px;
+  padding-top: 5px;
+  white-space: nowrap;
+  text-decoration: none;
+  align-self: flex-end;
+  border-bottom: 1px dashed #FFFFFF;
+  font-family: "Gotam Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 80.5%;
+  color: #FFFFFF;
+}
+
+.inner-main-content {
+  width: 85%;
+  height: 91%;
+  min-height: 720px;
+  display: flex;
+  opacity: 5;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bwnlock-spawn {
+  width: 100%;
+  height: 30%;
+  display: flex;
+}
+
+.conteiner-content {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-inner {
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 91px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+.text-inner a {
+  width: 75%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.text-inner .inner-button-left {
+  width: 6%;
+  right: 50px;
+  display: flex;
+}
+
+.button-left-1 {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 50%;
+  height: 51px;
+  width: 51px;
+  background: #ffffff60;
+}
+.button-left-1:hover {
+  background: #FFFFFF;
+}
+.button-left-1:active {
+  background: #17d110;
+}
+.button-left-1 .first-1 {
+  width: 16px;
+  height: 3px;
+  border-radius: 20px;
+  background: #12121290;
+  margin: 19px;
+  -webkit-transform: rotate(-45deg);
+}
+.button-left-1 .second-1 {
+  width: 16px;
+  height: 3px;
+  margin: -12px;
+  border-radius: 20px;
+  background: #12121290;
+  border-radius: 15px;
+  -webkit-transform: rotate(45deg);
+}
+
+.wrap-radius-111 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: auto;
+  min-height: 300px;
+  width: 33%;
+}
+
+.inner-button-right {
+  display: flex;
+  min-height: 70px;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.inner-button-right .button-right-2 {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 50%;
+  height: 51px;
+  width: 51px;
+  background: #ffffff60;
+}
+.inner-button-right .button-right-2:hover {
+  background: #FFFFFF;
+}
+.inner-button-right .button-right-2:active {
+  background: #17d110;
+}
+.inner-button-right .first-2 {
+  width: 16px;
+  height: 3px;
+  border-radius: 20px;
+  background: #12121290;
+  margin: 19px;
+  -webkit-transform: rotate(45deg);
+}
+.inner-button-right .second-2 {
+  width: 16px;
+  height: 3px;
+  margin: -12px;
+  border-radius: 20px;
+  background: #12121290;
+  border-radius: 15px;
+  -webkit-transform: rotate(-45deg);
+}
+
+.inner-under-content {
+  width: 88%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inner-under-content img {
+  width: 117.24px;
+  height: 76px;
+}
+
+.inner-content-radius {
+  width: 21%;
+  height: 50%;
+  min-width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner-content-radius a {
+  width: 219px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.radius-img {
+  width: 54px;
+  height: 54px;
+  min-height: 54px;
+  min-width: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #3FBB7B 0%, #31CB50 100%);
+}
+.radius-img img {
+  width: 22px;
+  height: 22px;
+}
+
+.inner-block-2 {
+  width: 100%;
+  height: auto;
+  min-height: 81px;
+  display: flex;
+  justify-content: center;
+}
+
+.block-nav {
+  width: 83%;
+  height: 81px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-left {
+  width: 50%;
+  min-width: 647px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.inner-left a {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 16px;
+  color: #323232;
+}
+
+.inner-right {
+  height: 100%;
+  min-width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inner-right button:nth-child(4) {
+  width: 219px;
+  height: 48px;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #3FBB7B 0%, #31CB50 100%);
+  border-radius: 110px;
+  outline: none;
+  border: none;
+  border-color: #3FBB7B;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 277px;
+}
+
+.inner-block-3 {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inner-all-content {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-nav-block {
+  width: 12%;
+  height: 50%;
+  min-height: 200px;
+  display: flex;
+}
+
+.inner-nav {
+  min-width: 120px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inner-nav a {
+  white-space: nowrap;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 36px;
+  color: #252D34;
+}
+.inner-nav a:hover {
+  background: linear-gradient(90deg, #725E55 0%, #88563F 100%);
+}
+
+.inner-block-content {
+  width: 30%;
+  height: 32%;
+  display: flex;
+  white-space: nowrap;
+}
+.inner-block-content h2 {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 85px;
+  color: #282828;
+}
+
+.block-content-img {
+  width: 87%;
+  height: auto;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block-content-img .inner-content-radius-3 {
+  width: 17%;
+  height: 100%;
+  min-width: 250px;
+  display: flex;
+  align-items: center;
+}
+.block-content-img .inner-content-radius-3 a {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #2F2F2F;
+}
+.block-content-img .inner-content-radius-3 .radius-img-3 {
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  display: flex;
+  border: 2px solid #3FBC7B;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #F8F9F7;
+}
+
+.inner-block-text {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+.inner-block-text p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #363636;
+}
+
+.inner-block-content-2 {
+  width: 60%;
+  height: 8%;
+  min-width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.inner-block-content-2 a {
+  font-family: Gotham Pro;
+  border-bottom: 2px dashed #30CC4F;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444444;
+}
+
+.inner-block-4 {
+  width: 100%;
+  height: auto;
+  min-height: 275px;
+  display: flex;
+  justify-content: flex-end;
+}
+.inner-block-4 .subtitle-text {
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+.inner-block-4 .subtitle-text h2 {
+  white-space: nowrap;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 53px;
+  color: #3A3A3A;
+}
+
+.wrap-content-block-4 {
+  width: 81%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap-benefits {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrap-benefits button {
+  width: 219px;
+  height: 48px;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #3FBB7B 0%, #31CB50 100%);
+  border-radius: 110px;
+  outline: none;
+  border: none;
+  border-color: #3FBB7B;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 170px;
+}
+
+.inner-choise {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  height: 70px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 13px;
+  color: #464646;
+}
+.inner-choise a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 35px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #252D34;
+}
+.inner-choise a:hover {
+  background: linear-gradient(90deg, #725E55 0%, #88563F 100%);
+}
+
+.menu-choice {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}

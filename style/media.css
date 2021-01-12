@@ -1,0 +1,287 @@
+@media screen and (max-width: 1175px) {
+
+    
+
+.inner-head-content{
+    width: 90%;
+}
+.inner-main-content {
+    width: 100%;
+}
+.inner-block-1 {
+    min-width: 100%;
+
+
+}
+.inner-left{
+    min-width: 610px;
+}
+.block-nav {
+width: 100%;
+}
+.inner-right {
+    width: 33%;
+}
+.block-content-img{
+    width: 100%;
+}
+.block-content-img .inner-content-radius-3  {
+min-width: 197px;
+
+
+}
+.inner-center-content{
+    display: none;
+    }    
+    .block-content-img {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .inner-block-3 {
+        flex-direction: column;
+        min-height: 450px;
+    }
+    .inner-nav-block {
+        width: 100%;
+    }
+    .inner-nav-block {
+        min-height: 30px;
+        justify-content: center;
+    }
+    .inner-nav {
+        min-height: 30px;
+        flex-direction: row;
+    }
+    .inner-nav a {
+        padding: 0px 20px;  
+    }
+    .block-content-img .inner-content-radius-3 {
+        width: 48%;
+    }
+    .inner-block-text{
+        width: 100%;
+        height: 45%;
+    }
+    .inner-block-text p {
+        padding: 0px 6px;
+    }
+    .inner-block-content{
+    align-items: center;
+    height: 100px;
+    }
+    .inner-all-content {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 970px) {
+.text-inner {
+    font-size: 60px;
+    line-height: 52px;
+
+}
+.block-nav {
+    flex-direction: column;
+    align-items: center;
+}
+.inner-right {
+    min-width: 379px;
+}
+
+element.style {
+}
+
+
+@media screen and (max-width: 800px){
+
+.inner-block-content-2 {
+min-width: 500px;
+flex-wrap: wrap;
+    }
+.wrap-content-block-4 {
+    align-items: center;
+    width: 100%;
+}
+.wrap-benefits{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.inner-block-content-2 a {
+    width: 35%;
+}
+
+.inner-block-text { 
+    flex-direction: column;
+}
+
+}
+
+@media screen and (max-width: 721px) {
+.line-radius {
+height: 228px;
+}
+.installment-plan {
+    width: 43%;
+    }
+.text-inner {
+    width: 55%;
+    font-size: 50px;
+    }
+.inner-under-content {
+    width: 60%;
+    flex-wrap: wrap;
+    min-height: 157px;
+    }
+    
+
+.wrap-radius-111 {
+    width: 35%;
+}
+.inner-nav-block {
+    width: 100%;
+    
+}
+.block-nav {
+    min-height: 164px;
+}
+.inner-block-2 {
+    min-height: 164px;
+}
+.inner-left {
+    flex-direction: column;
+    min-width: 260px;
+    height: 260px;
+}
+.inner-left a {
+    font-size: 15px;
+    
+}
+.inner-nav a {
+    font-size: 15px;
+   
+}
+.inner-right{
+    width: 70%;
+}
+.inner-nav-block {
+    width: 100%;
+}
+.inner-nav {
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 525px){
+.head-block {
+    height: 50px;
+}
+.logo {
+    width: 95px;
+}
+
+.inner-head-content button:nth-child(2){
+    height: 35px;
+    width: 135px;
+    font-size: 10px;
+}
+.inner-numb{
+    min-width: 85px;
+}
+.inner-numb a:nth-child(1){
+    font-size: 10px;
+    
+}
+.text-inner{
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.text-inner a {
+font-size: 14px;
+line-height: 17px;
+}
+.line-radius {
+    height: 172px;
+}
+.radius-content{
+    min-height: 73px;
+    min-width: 73px;
+}
+.radius-content a:nth-child(2){
+    font-size: 8px;
+    line-height: 8px;
+}
+.radius-content a:nth-child(4){
+    font-size: 17px;
+    line-height: 18px;
+}
+.inner-block-content-2 {
+  min-width: 399px;  
+}
+.inner-block-content-2 a{
+font-size: 14px;
+}
+.inner-block-content{
+    height: 48px;
+}
+.inner-block-content h2 {
+font-size: 28px;
+
+}
+.inner-block-4 .subtitle-text {
+height: 24%;
+align-items: center;
+
+}
+.inner-block-4 .subtitle-text h2 {
+font-size: 23px;
+
+}
+
+}
+
+@media screen and (max-width: 400px){
+.inner-head-content{
+    width: 100%;
+}
+.inner-button-right {
+    width: 52px;
+}
+.text-inner {
+    font-size: 20px;
+    line-height: 20px;
+}
+.line-radius{
+    height: 212px;
+}
+.text-inner a {
+    font-size: 11px;
+    line-height: 12px; 
+}
+.inner-under-content {
+    min-width: 308px;
+}
+.inner-content-radius a{
+    font-size: 14px;
+    line-height: 12px;
+}
+.inner-right {
+    min-width: 320px;
+}
+.inner-right button:nth-child(4) {
+    font-size: 11px;
+    width: 210px;
+}
+.inner-block-content-2 {
+min-width: 315px;}
+
+.block-content-img {
+justify-content: center;
+}
+
+
+
+}
